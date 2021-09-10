@@ -1,0 +1,87 @@
+/**
+ * fil: css/style.css
+ **/
+/* Variabler: genbruges og gør designvalg enkle */
+:root {
+  /* farver */
+  --blue: #052c6b;
+  --white: #ffffff;
+
+  /* fonte */
+
+/*google fonts*/
+
+
+/* Bruges sådan: font family : */
+/*navigationsfarven*/
+
+--navfarve: #bd2ba9 ;
+}
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+}
+
+body {
+  background-color: var(--navfarve);
+  font-family:'ZCOOL KuaiLe', cursive;
+
+
+
+h1,h2,h3,h4,h5,h6 {
+
+  font-family:'ZCOOL KuaiLe', cursive;
+color: red; '
+  }
+
+/* Layout */
+
+/* Typografi */
+h2 {
+  border-bottom: 2px solid var(--blue);
+  color:var(--blue);
+    text-align:center;
+    padding: 23px;
+}
+/*links*/
+a {
+  color: red;
+  text-decoration: none;
+  }
+
+{  a:hover
+    background-color:red;
+    }
+
+  {nav  ul
+    list-style-type: none; /*fjerner lister*/
+}
+  nav ul  {
+    display: inline;
+    }
+p {
+  margin-top:37px;
+  }
+
+
+#wrap {
+  width: 655px;
+  margin:auto;
+  }
+
+
+  text-align:center;
+}
+
+figure {
+  heigh:450px;
+  width:300px;
+  overflow: auto;
+  }
+
+Figure img {
+  width: 100%;
+    }
+
+  galleri figure{
+  float: left;
+  }
